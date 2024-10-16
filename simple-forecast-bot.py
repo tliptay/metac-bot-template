@@ -44,7 +44,7 @@ def main():
 
     # define bot parameters
     use_perplexity = False
-    submit_predictions = False
+    submit_predictions = True
     metac_token = config("METACULUS_TOKEN")
     metac_base_url = "https://www.metaculus.com/api2"
     tournament_id = 32506
