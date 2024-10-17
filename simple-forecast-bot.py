@@ -43,7 +43,7 @@ def main():
     """
 
     # define bot parameters
-    use_perplexity = False
+    use_perplexity = True
     submit_predictions = True
     metac_token = config("METACULUS_TOKEN")
     metac_base_url = "https://www.metaculus.com/api2"
